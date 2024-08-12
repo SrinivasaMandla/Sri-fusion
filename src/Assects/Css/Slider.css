@@ -69,7 +69,6 @@
 
 @media screen and (max-width:546px) {
     .slider-content{
-        border: 2px solid;
         display: flex;
         flex-direction: column-reverse;
         max-width: 100%;
@@ -94,7 +93,6 @@
 
 @media (min-width:546px) and (max-width:847px) {
     .slider-content{
-        border: 2px solid;
         display: flex;
         flex-direction: column-reverse;
         height: 100%;
