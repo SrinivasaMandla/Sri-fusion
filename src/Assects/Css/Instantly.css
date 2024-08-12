@@ -1,0 +1,239 @@
+.instantly {
+    position: relative;
+    background-color: #efefef;
+}
+
+.instantly::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    top: 0;
+    background-color: #9baed9;
+}
+
+.instantly-box {
+    max-width: 810px;
+    margin: auto;
+    padding: 0 10px;
+    margin-top: 6em;
+    position: relative;
+}
+
+/* header block  */
+.instantly-head {
+    text-align: center;
+    margin-bottom: 5em;
+    padding-bottom: 10px;
+}
+
+.instantly-head-title {
+    font-weight: 600;
+}
+
+/* instantly-preview blok  */
+.instantly-preview {
+    margin-bottom: 69px;
+}
+
+.instantly-preview-box {
+    width: 470px;
+    height: 373px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+}
+
+/* instantly preview note block  */
+.instantly-preview-note {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.instantly-preview-note div {
+    width: 15%;
+    height: auto;
+}
+
+.preview-note-1 {
+    margin-right: 70%;
+    margin-bottom: 50px;
+}
+
+.preview-note-2 {
+    margin-bottom: 50px;
+}
+
+.preview-note-3 {
+    margin-bottom: 20px;
+}
+
+.preview-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .14em;
+    font-size: 14px;
+}
+
+.preview-note {
+    color: #282d33;
+    line-height: 1.4em;
+    font-size: 13px;
+}
+@media screen and (max-width:287.98px) {
+    .instantly-box {
+        max-width: 100%;
+        margin-top: 4em;
+    }
+    .instantly {
+        background-color: #9baed9;
+    }
+    .instantly-preview {
+        margin-bottom: 0px;
+    }
+    
+    .instantly-preview-box {
+        border: 2px solid;
+        width: 100%;
+        height: 273px;
+        margin: auto;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .instantly-preview-note {
+        padding-top: 20px;
+        margin: auto;
+        max-width: 470px;
+    }
+    .preview-note-1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .instantly-preview-note {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .instantly-preview-note div {
+        width: auto;
+        text-align: center;
+    }
+    .preview-note-2 {
+        margin-bottom: 10px;
+    }
+    .preview-title {
+        font-size: 13px;
+    }
+    
+    .preview-note {
+        font-size: 10px;
+    }
+    .instantly-head-title {
+        font-size: 18px;
+    }
+    .instantly-head{
+        font-size: 10px;
+    }
+}
+@media (min-width:288px) and (max-width:538px) {
+    .instantly-box {
+        max-width: 100%;
+        margin-top: 4em;
+    }
+    .instantly {
+        background-color: #9baed9;
+    }
+    .instantly-preview {
+        margin-bottom: 0px;
+    }
+    
+    .instantly-preview-box {
+        border: 2px solid;
+        width: 100%;
+        height: 273px;
+        margin: auto;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .instantly-preview-note {
+        padding-top: 20px;
+        margin: auto;
+        max-width: 470px;
+    }
+    .preview-note-1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .instantly-preview-note {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .instantly-preview-note div {
+        width: auto;
+        text-align: center;
+    }
+    .preview-note-2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media  (min-width:539px) and (max-width:921px) {
+    .instantly-box {
+        max-width: 660px;
+        margin-top: 5em;
+    }
+    .instantly {
+        background-color: #9baed9;
+    }
+    .instantly-preview {
+        margin-bottom: 0px;
+    }
+    
+    .instantly-preview-box {
+        border: 2px solid;
+        width: 470px;
+        height: 373px;
+        margin: auto;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .instantly-preview-note {
+        padding-top: 20px;
+        margin: auto;
+        max-width: 470px;
+    }
+    .preview-note-1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .instantly-preview-note {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .instantly-preview-note div {
+        width: auto;
+        text-align: center;
+    }
+    .preview-note-2 {
+        margin-bottom: 10px;
+    }
+}

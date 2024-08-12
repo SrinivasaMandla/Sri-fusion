@@ -1,0 +1,205 @@
+.footer-main {
+    background-color: #292d33;
+    padding: 4em 0 8.5em 0;
+}
+
+.footer-box {
+    max-width: 810px;
+    margin: auto;
+}
+
+/* Footer first section */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 6em;
+}
+
+.footer-row .footer-section {
+    width: 30%;
+    height: auto;
+    min-width: 200px;
+    padding: 40px 20px 0 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer-section .title {
+    transition: none;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-note {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #8e999b;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    right: -10px;
+    bottom: -6px;
+    left: -10px;
+    height: 14px;
+    content: "";
+}
+
+.title-one::before {
+    background-color: hsla(45, 90%, 65%, 0.2);
+}
+
+.title-two::before {
+    background-color: hsla(335, 82%, 63%, 0.2);
+}
+
+.title-three::before {
+    background-color: hsla(144, 40%, 68%, 0.2);
+}
+
+.title-last {
+    color: #8e999b;
+    transition: none;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/* Footer decor section  */
+.footer-decor-section{
+    color: white;
+    max-width: 554px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em 5em 5em;
+    height: 15em;
+    position: relative;
+}
+.footer-decor-section div{
+    width: 5em;
+    height: 5em;
+}
+.first-decor{
+    position: relative;
+    background-color: hsl(45, 90%, 65%);
+}
+.first-decor::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 5em;
+    height: 5em;
+    background-color: hsl(335, 82%, 63%);
+}
+
+.second-decor{
+    position: relative;
+    top: 5em;
+    background-color: hsl(144, 40%, 68%);
+}
+.second-decor::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 5em;
+    height: 5em;
+    background-color: hsl(221, 44%, 73%);
+}
+@media only screen and (max-width: 221.98px) {
+    .footer-box {
+        /* max-width: 310px; */
+        width: 100%;
+        padding: 0 10px !important;
+    }
+    .footer-section a{
+        font-size: 12px;
+    }
+    .footer-section p{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (max-width: 563.98px) {
+    .footer-box {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .footer-row {
+        margin-bottom: 3em;
+    }
+    
+    .footer-section {
+        width: 100% !important;
+        height: auto;
+        padding: 10px 5px 0 4px !important;
+    }
+    .footer-main {
+        padding: 2em 0 4.5em 0;
+    }
+    .footer-decor-section div{
+        width: 2em;
+        height: 2em;
+    }
+    .first-decor::before{
+        width: 2em;
+        height: 2em;
+    }
+    .second-decor::before{
+        width: 2em;
+        height: 2em;
+    }
+    .footer-decor-section{
+        max-width: 100% ;
+        padding: 0 2em 2em 2em;
+        height: 6em;
+    }
+    .footer-section p{
+        font-size: 10px !important;
+    }
+}
+@media (min-width: 564px) and (max-width: 759.98px) {
+    .footer-box {
+        max-width: 510px;
+    }
+    .footer-row .footer-section {
+        width: 100%;
+        height: auto;
+    }
+    .footer-main {
+        padding: 2em 0 0em 0;
+    }
+    .footer-decor-section div{
+        width: 3em;
+        height: 3em;
+    }
+    .first-decor::before{
+        width: 3em;
+        height: 3em;
+    }
+    .second-decor::before{
+        width: 3em;
+        height: 3em;
+    }
+}
+
+@media (min-width:760px) and (max-width: 991px) {
+    .footer-box {
+        max-width: 660px;
+    }
+    .footer-row .footer-section {
+        width: 40%;
+        height: auto;
+    }
+}

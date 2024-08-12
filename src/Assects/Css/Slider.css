@@ -1,0 +1,113 @@
+
+.second-section{
+    background-image: linear-gradient(90deg, #efefee 0, #fcd46b);
+}
+.slider-content{
+    display: flex;
+    height: 100%;
+    max-width: 810px;
+    margin: auto;
+    position: relative;
+}
+.slider-content div{
+    height: 62vh;
+}
+
+.left-content{
+    flex: 1;
+    padding: 5em 10px;
+}
+.slider1-left-review{
+    font-size: 14px;
+    padding: 0 10px ;
+    
+}
+.slider1-user{
+    display: flex;
+    max-width: 40%;
+    border-radius: 40px;
+}
+
+/* Right content image  */
+.right-image{
+    flex: 1;
+    position: relative; 
+}
+
+.slider-fotter{
+    height: 70px;
+    background-color: #efefef;
+}
+
+.carousel-indicators{
+    position: relative;
+    bottom: -60px !important;
+}
+.carousel-indicators button{
+   border-radius: 50px;
+   border: 3px solid #fff !important;
+   width: 5px !important;
+   padding: 4px 3px !important;
+   margin: 0px 6px !important;
+   background-color: #fff !important;
+}
+.carousel-indicators .active{
+    background-color: black !important;
+}
+
+.slider1-user-note{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.slider1-user-note h6{
+    font-size: 13px;
+}
+.slider1-user-note p{
+    font-size: 9px;
+}
+
+@media screen and (max-width:546px) {
+    .slider-content{
+        border: 2px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        margin: 0 10px;
+    }
+    .left-content {
+        padding: 10px 10px;
+       
+    }
+    .right-image-slider{
+        min-height: 200px;
+    }
+    .slider-content .left-content{
+        height: 22vh !important;
+    }
+    .slider1-left-review{
+        font-size: 10px;
+        padding: 0 10px ;
+        
+    }
+}
+
+@media (min-width:546px) and (max-width:847px) {
+    .slider-content{
+        border: 2px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        max-width: 510px;
+        margin: auto;
+        background-image: linear-gradient(90deg, #efefee 0, #fcd46b);
+        position: relative;
+    }
+    .left-content {
+        padding: 10px 10px;
+       
+    }
+    .right-image-slider{
+        min-height: 200px;
+    }
+}

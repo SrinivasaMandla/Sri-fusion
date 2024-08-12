@@ -1,0 +1,243 @@
+.features {
+    background-color: #efefef;
+}
+
+.features-box {
+    max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding: 0 10px;
+}
+
+/* Features List start   */
+.features-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.features-list-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+
+.features-list-one>div {
+    flex: none;
+}
+
+.features-item-cover {
+    width: 156px;
+    height: 156px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-item-box {
+    margin-left: 78px;
+}
+
+.features-item-box-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.features-item-box-note {
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+    color: white;
+    font-size: 90px;
+}
+
+.list-1 {
+    background-color: #ee5495;
+}
+
+.list-2 {
+    background-color: #8ecea8;
+}
+
+.list-3 {
+    background-color: #9baed9;
+}
+
+.list-4 {
+    background-color: #f6ce55;
+}
+
+.list-5 {
+    background-color: black;
+}
+
+.left-margin {
+    margin-left: 156px;
+}
+
+/* Create my logo style here  */
+.features-action {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.features-action-title {
+    font-weight: 600;
+    margin-bottom: .1875em;
+    color: #292e34;
+    line-height: 1.21875em;
+}
+
+.features-action-note {
+    color: rgba(41, 46, 52, .5);
+    line-height: 1.4em;
+    margin-bottom: 50px;
+}
+
+.features-action-btn {
+    position: relative;
+    color: #fff;
+    background-color: hsl(222, 45%, 73%);
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 35px;
+}
+
+@media screen and (max-width: 299.98px) {
+    .features-item-box-title {
+        font-size: 16px;
+    }
+
+    .features-item-box-note {
+        font-size: 11px;
+    }
+
+    .features-item-cover {
+        width: 106px;
+        height: 106px;
+    }
+
+    .features-box {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .list-1,
+    .list-2,
+    .list-3,
+    .list-4,
+    .list-5 {
+        color: white;
+        font-size: 50px;
+    }
+    .features-action {
+        margin-top: 2em;
+    }
+    .features-action-title {
+        font-size: 15px;
+    }
+    .features-action-note {
+        font-size: 11px;
+    }
+    .features-action-btn {
+        padding: 9px 25px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 559.98px) {
+    .features-list-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-box {
+        max-width: 380px;
+        text-align: center;
+    }
+
+    .left-margin {
+        margin-left: 0px;
+    }
+
+    .features-item-box {
+        margin-left: 0px;
+    }
+
+    .list-1 {
+        color: #ee5495;
+    }
+
+    .list-2 {
+        color: #8ecea8;
+    }
+
+    .list-3 {
+        color: #9baed9;
+    }
+
+    .list-4 {
+        color: #f6ce55;
+    }
+
+    .list-5 {
+        color: black;
+    }
+
+    .list-2,
+    .list-1,
+    .list-3,
+    .list-4,
+    .list-5 {
+        background-color: #efefef;
+    }
+
+}
+
+@media (min-width: 560px) and (max-width: 759.98px) {
+    .features-box {
+        max-width: 500px;
+    }
+
+    .left-margin {
+        margin-left: 0px;
+    }
+
+    .features-item-box {
+        margin-left: 58px;
+    }
+
+    .features-item-box-title {
+        font-size: 18px;
+    }
+
+    .features-item-box-note {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 971.98px) {
+    .features-box {
+        max-width: 680px;
+    }
+
+    .left-margin {
+        margin-left: 0px;
+    }
+}
