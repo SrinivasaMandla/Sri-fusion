@@ -3,7 +3,7 @@
 Welcome to the E-commerce website repository developed by Srinivas M. This project showcases a fully functional online platform for creating new logos, implemented with HTML, CSS, JavaScript, and React.js.
 
 ## Website URL
-- [Visit E-Commerce Website](https://srinivasamandla.github.io/E-Commerce-Website)
+- [Visit E-Commerce Website](https://wonderful-seahorse-2ab65f.netlify.app/)
 
 ## GitHub Repository
 - [View on GitHub](https://github.com/SrinivasaMandla/Sri-fusion)
