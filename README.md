@@ -29,4 +29,4 @@ Welcome to the E-commerce website repository developed by Srinivas M. This proje
 - **Name:** Srinivas M
 - **Email:** srinumandla9009@gmail.com
 
-Feel free to explore, contribute, and provide feedback on this project!
+Feel free to explore, contribute, and provide feedback on this project! 
