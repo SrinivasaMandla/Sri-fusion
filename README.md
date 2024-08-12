@@ -6,7 +6,7 @@ Welcome to the E-commerce website repository developed by Srinivas M. This proje
 - [Visit E-Commerce Website](https://srinivasamandla.github.io/E-Commerce-Website)
 
 ## GitHub Repository
-- [View on GitHub](https://github.com/srinivasamandla/E-Commerce-Website)
+- [View on GitHub](https://github.com/SrinivasaMandla/Sri-fusion)
 
 ## Additional Published Links
 - [Brandmark.io](https://brandmark.io) (inspiration and reference)
