@@ -1,4 +1,4 @@
-# E-Commerce Website
+# Sri Fusion Website
 
 Welcome to the E-commerce website repository developed by Srinivas M. This project showcases a fully functional online platform for creating new logos, implemented with HTML, CSS, JavaScript, and React.js.
 
