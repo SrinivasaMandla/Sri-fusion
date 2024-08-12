@@ -108,7 +108,7 @@
         margin: auto;
     }
     .chat-box-row {
-        padding: 0 10px;
+        padding: 0 10px; 
         height: auto;
         display: flex;
         flex-direction: column;
